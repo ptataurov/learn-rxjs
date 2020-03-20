@@ -1,0 +1,12 @@
+extends ~@/layout
+block title
+  title
+
+block content
+
+  - const data = require('./data.js')
+  - const css = require('./_css.json')
+
+  div(id='index-pg' class=css.indexPg)
+    +btn
+
